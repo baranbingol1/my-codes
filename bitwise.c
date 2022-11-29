@@ -30,7 +30,7 @@ void AND(int sayi1,int sayi2){
     bitleriGoster(sayi1 & sayi2);
 }
 
-int main(){
+int main(void){
 
     char secilenIslem;
     int sayi1, sayi2;
@@ -57,6 +57,4 @@ int main(){
     if(secilenIslem == '&'){
         AND(sayi1,sayi2);
     }
-
-
 }
